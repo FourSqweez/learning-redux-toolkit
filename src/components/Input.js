@@ -9,6 +9,7 @@ export default function Input() {
 
   const addTodo = () => {
     console.log(`Adding ${input}`)
+    setInput('')
 
     dispatch(
       saveTodo({
